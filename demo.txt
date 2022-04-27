@@ -1,0 +1,22 @@
+
+#http://10.26.15.133:8080/
+#输入以下查询sql
+
+# 查询
+query {
+  hello
+  echo(toEcho: "Golang GraphQL")
+  user(id : "beike-user-1") {
+    id
+    password
+    username
+    info {
+      id
+      age
+      firstName
+      lastName
+    }
+  }
+}
+
+
