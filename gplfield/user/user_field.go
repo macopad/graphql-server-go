@@ -1,7 +1,7 @@
 package user
 
 import (
-	"graphql-server-go/gplparse"
+	"code.macopad.com/graphql-server-go/gplparse"
 	"log"
 	"math/rand"
 	"strconv"

@@ -1,7 +1,7 @@
 package gplschema
 
 import (
-	"graphql-server-go/gplfield/user"
+	"code.macopad.com/graphql-server-go/gplfield/user"
 	"log"
 
 	"github.com/graphql-go/graphql"

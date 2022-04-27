@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"graphql-server-go/gplparse"
-	"graphql-server-go/gplschema"
+	"code.macopad.com/graphql-server-go/gplparse"
+	"code.macopad.com/graphql-server-go/gplschema"
 	"html/template"
 	"log"
 	"net/http"
