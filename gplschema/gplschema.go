@@ -2,6 +2,7 @@ package gplschema
 
 import (
 	"code.macopad.com/graphql-server-go/gplfield/user"
+	"code.macopad.com/graphql-server-go/gplfield/newhouse"
 	"log"
 
 	"github.com/graphql-go/graphql"
@@ -39,6 +40,7 @@ var schemaQuery = graphql.NewObject(graphql.ObjectConfig{
 		"users": user.List(),
 		// 根据ID用户查询
 		"user": user.ByID(),
+		"newhouse" : newhouse.ByID(),
 	},
 })
 

@@ -6,7 +6,6 @@ import (
 	"math/rand"
 	"strconv"
 	"time"
-
 	"github.com/graphql-go/graphql"
 )
 
